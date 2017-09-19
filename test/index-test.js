@@ -56,5 +56,5 @@ describe('Selectors', () => {
 
     expect(window.alert).toHaveBeenCalledWith('Your form is going to be submitted now.');
   });
-  
+
 });
