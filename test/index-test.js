@@ -8,7 +8,7 @@ describe('Selectors', () => {
 
     expect(window.alert).toHaveBeenCalled();
   });
-/*
+  
   it('frameIt() binds an event that frames the minion when the page loads', function() {
     window.frameIt()
 
@@ -18,7 +18,7 @@ describe('Selectors', () => {
 
     expect(img.attr("class")).toEqual("tasty");
   });
-
+/*
   describe('pressIt()', () => {
     it('pressIt() binds an event that alerts the user when the G key was pressed down', function() {
       window.alert = expect.createSpy()
