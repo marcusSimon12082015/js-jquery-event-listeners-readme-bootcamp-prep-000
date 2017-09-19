@@ -31,7 +31,7 @@ describe('Selectors', () => {
 
       expect(window.alert).toHaveBeenCalled()
     })
-/*
+
     it('does not alert if another key is pressed', () => {
       window.alert = expect.createSpy()
 
@@ -44,7 +44,7 @@ describe('Selectors', () => {
       expect(window.alert).toNotHaveBeenCalled()
     })
   })
-
+/*
   it('submitIt() binds an event that alerts "Your form is going to be submitted now." when the form is submitted', function() {
     window.alert = expect.createSpy()
 
@@ -56,5 +56,5 @@ describe('Selectors', () => {
 
     expect(window.alert).toHaveBeenCalledWith('Your form is going to be submitted now.');
   });
-*/
+  */
 });
