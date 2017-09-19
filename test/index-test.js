@@ -8,7 +8,7 @@ describe('Selectors', () => {
 
     expect(window.alert).toHaveBeenCalled();
   });
-
+/*
   it('frameIt() binds an event that frames the minion when the page loads', function() {
     window.frameIt()
 
@@ -56,5 +56,5 @@ describe('Selectors', () => {
 
     expect(window.alert).toHaveBeenCalledWith('Your form is going to be submitted now.');
   });
-
+*/
 });
